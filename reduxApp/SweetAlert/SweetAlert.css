@@ -1,0 +1,16 @@
+/* styles.css or your main CSS file */
+.swal-custom-popup {
+    background-color: #b37d00; /* Yellowish background */
+    width: 400px !important; /* Adjust the width of the popup */
+    font-size: 18px !important; /* Adjust the font size */
+    padding: 0px !important;
+}
+
+.swal-custom-button {
+    background-color: rgba(0, 0, 0, 0.236) !important; /* Semi-transparent black background */
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 16px !important; /* Adjust the font size of the button text */
+    padding: 10px 20px !important; /* Adjust padding for the button */
+}

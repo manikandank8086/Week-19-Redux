@@ -1,0 +1,43 @@
+.user-list-container {
+    padding: 40px 50px; /* Reduced padding to bring the content closer together */
+    color: #9c790e;
+    width: 75%;
+}
+
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px; /* Reduced margin between the table and the button */
+    color: #ddd;
+    border-color: #9c790e;
+    border-radius: 10px; /* Add border-radius to the table */
+    overflow: hidden;
+}
+
+.user-list-table th, .user-list-table td {
+    border: 3px double #9c790e; /* Double border for a unique look */
+    padding: 8px;
+    text-align: left;
+}
+
+.user-profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.create-user-btn {
+    padding: 10px 20px;
+    background-color: #9c790e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 86%; /* Adjusted margin-left to position the button closer */
+    margin-top: -10px; /* Added negative margin to pull the button closer to the table */
+}
+
+.create-user-btn:hover {
+    background-color: #b39200;
+}

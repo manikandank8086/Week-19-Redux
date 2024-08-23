@@ -1,0 +1,81 @@
+.admin-navbar {
+    width: 100%;
+    background-color: #9c790e; /* Primary blue color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .admin-navbar-brand a {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(60, 52, 52);
+    text-decoration: none;
+  }
+  
+  .admin-navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-navbar-nav .nav-item {
+    margin-left: 20px;
+  }
+  
+  .admin-navbar-nav .nav-link {
+    color: rgb(26, 21, 21);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .admin-navbar-nav .nav-link:hover {
+    color: #212529; /* Light grey color on hover */
+  }
+  
+  .admin-navbar-nav .btn-link {
+    color: rgba(45, 41, 41, 0.773);
+    text-decoration: none;
+  }
+  
+  .admin-navbar-nav .btn-link:hover {
+    color: #212529; /* Light grey color on hover */
+  }
+
+  .admin-navbar-search {
+    flex-grow: 1;
+    margin-left: 2rem;
+  }
+  
+  .admin-search-input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    margin-left: 73%;
+    background-color: #222323;
+    color: rgb(132, 126, 126);
+    margin-right: 5px; /* Added margin to the right */
+}
+  
+.admin-search-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #222323;
+    color: #817575;
+    cursor: pointer;
+    margin-left: 5px; /* Adjusted margin to the left */
+}
+
+  .admin-search-btn :hover{
+    background-color: black;
+  }
+  

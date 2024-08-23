@@ -1,0 +1,131 @@
+/* UserProfile Container */
+.userprofile-container {
+    width: 100%; /* Take up the full width of the page */
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+/* UserProfile Navbar */
+.userprofile-navbar {
+    width: 100%;
+    background-color: #b37d00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Right Nav Container */
+.userprofile-right-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar Links */
+.userprofile-nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+/* Logout Button */
+.userprofile-logout-button {
+    padding: 5px 10px;
+    background-color: #ac3030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Container */
+.userprofile-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: white; */
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    color:#fff
+}
+
+/* Heading */
+.userprofile-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Profile Container */
+.userprofile-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.userprofile-profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Placeholder for No Image */
+.userprofile-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* File Input */
+.userprofile-file-input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Input Fields */
+.userprofile-input-field {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Edit Button */
+.userprofile-edit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b37d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.userprofile-edit-button:hover {
+    background-color: #a76f16;
+}
+
+
